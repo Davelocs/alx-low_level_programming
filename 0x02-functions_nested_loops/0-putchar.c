@@ -1,13 +1,23 @@
-#include <stdio.h>
-int main (void)
-{
-   
-    // Get the character to be written
-    char ch = 'B';
-  
-    // Write the Character to stdout
-    putchar(ch);
-  
-    return (0);
+#include "_putchar.h"
 
-}	
+/**
+ * main - prints _putchar
+ *
+ * Description: prints _putchar
+ *
+ * Return: 0 (Success)
+ */
+
+int main(void)
+{
+	char text[10] = "_putchar";
+	int i = 0;
+
+	for (i = 0; i < 9; i++)
+	{
+		_putchar(text[i]);
+	}
+	_putchar('\n');
+
+	return (0);
+}
