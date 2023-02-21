@@ -1,23 +1,11 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
- * main - prints _putchar
- *
- * Description: prints _putchar
- *
- * Return: 0 (Success)
+ * main - Entry point
+ * Return: Always 0.
  */
-
 int main(void)
 {
-	char text[10] = "_putchar";
-	int i = 0;
-
-	for (i = 0; i < 9; i++)
-	{
-	        putchar(text[i]);
-	}
-	 putchar('\n');
-
+	printf("_putchar\n");
 	return (0);
 }
